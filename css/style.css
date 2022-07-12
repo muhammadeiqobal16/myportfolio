@@ -1,0 +1,43 @@
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: black;
+}
+figure{
+    flex-basis: 33.33%;
+}
+#jumbotron{
+    height: 100vh;
+    background-image: url(../img/jumbotron/jumbotron.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#projects{
+    background-color: lavender;
+}
+#contact{
+    background-color: lavender;
+    height: 400px;
+}
+.profpic{
+    width: 250px;
+}
+.col i{
+    font-size: 2em;
+}
+.card{
+    border-radius: 10px;
+}
+.card:hover{
+    transform: scale(103%);
+    transition: .3s;
+}
+.card img{
+    width: 200px;
+    margin: 0 auto;
+}
+:target{
+    scroll-margin-top: 3.5rem;
+}
