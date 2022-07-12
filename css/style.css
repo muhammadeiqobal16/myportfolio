@@ -14,6 +14,12 @@ section{
     padding-top: 5rem;
     padding-bottom: 5rem;
 }
+figure{
+    flex-basis: 33.33%;
+}
+figure img{
+    width: 4em;
+}
 #jumbotron{
     height: 100vh;
 }
