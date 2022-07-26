@@ -40,9 +40,11 @@ figure img{
 }
 .card{
     border-radius: 10px;
+}
+.cardWrapper{
     transition: .3s;
 }
-.card:hover{
+.cardWrapper:hover{
     transform: scale(103%);
 }
 .card img{
