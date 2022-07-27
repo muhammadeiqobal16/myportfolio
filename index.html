@@ -14,14 +14,11 @@
     <!-- My CSS -->
     <link rel="stylesheet" href="css/style.css">
 
-    <title>MyPortfolio</title>
+    <title>Hello, world!</title>
   </head>
   <body>
-
-    <!-- Start of HEADER -->
-    <header>
-      <!-- Start of NAVBAR -->
-      <nav class="navbar navbar-expand-lg bg-dark navbar-dark shadow-sm fixed-top">
+    <!-- Start of NAVBAR -->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark shadow-sm fixed-top">
         <div class="container">
           <a class="navbar-brand" href="#">Muhammad Iqbal</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -29,201 +26,235 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#jumbotron">Home</a>
+              <li class="nav-item text-center">
+                <a class="navBtn nav-link active" aria-current="page" href="#jumbotron">Home</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#about">About</a>
+              <li class="nav-item text-center">
+                <a class="navBtn nav-link" href="#about">About</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#projects">Projects</a>
+              <li class="nav-item text-center">
+                <a class="navBtn nav-link" href="#project">Project</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#toolbox">Toolbox</a>
+              <li class="nav-item text-center">
+                <a class="navBtn nav-link" href="#skill">Skill</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#contact">Contact</a>
+              <li class="nav-item text-center">
+                <a class="navBtn nav-link" href="#contact">Contact</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="https://drive.google.com/file/d/1OoRdUMzzSpLvAGdqTX3FUL-8Q2h1_rP7/view?usp=sharing" target="_blank">
-                  <span class="bg-success text-white ps-3 pe-3 pt-1 pb-1 rounded-pill">Resume</span>
-                </a>
+              <li class="nav-item text-center">
+                <a class="resumeBtn nav-link" href="https://drive.google.com/file/d/1OoRdUMzzSpLvAGdqTX3FUL-8Q2h1_rP7/view?usp=sharing" target="_blank">Resume</a>
               </li>
             </ul>
           </div>
         </div>
       </nav>
-      <!-- End of NAVBAR -->
-    </header>
-    <!-- End of HEADER -->
+    <!-- End of NAVBAR -->
 
+    <!-- Start of HERO -->
+    <section id="jumbotron" class="text-white text-center">
+        <img src="img/profpic.jpeg" alt="profpic" class="profpic rounded-circle img-thumbnail shadow">
+        <h1 class="display-4">Muhammad Iqbal</h1>
+        <p class="lead">Frontend Developer | Industrial Engineer</p>
+    </section>
+    <!-- End of HERO -->
 
-    <main>
-      <!-- Start of JUMBOTRON -->
-      <section id="jumbotron" class="d-flex flex-column justify-content-center align-items-center p-3">
-        <img src="img/profpic.jpeg" alt="profpic" class="profpic img-thumbnail rounded-circle shadow">
-        <h1 class="display-1">Muhammad Iqbal</h1>
-        <p class="lead text-center">Frontend Developer | Industrial Engineer</p>
-      </section>
-      <!-- End of JUMBOTRON -->
-
-      <!-- Start of ABOUT -->
-      <section id="about" class="shadow">
-        <div class="container d-flex flex-column align-items-center">
-          <div class="row">
-            <div class="col text-center">
-              <h2 class="display-6">About</h2>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-sm-5 offset-sm-1 text-center text-sm-end">
-              <p>Hello world! My name is Muhammad Iqbal. I am 27 years old and I live in Bandung City. I graduated from The National Institute of Technology in 2017 as an Industrial Engineer. Long story short, I decided to dive into the world of frontend developer because coding is fun and has become my lifestyle.</p>
-            </div>
-            <div class="col-sm-5 text-center text-sm-start">
-              <p>Start my journey by learning HTML, CSS, and JavaScript. Learn some libraries such as jQuery and Bootstrap and now I currently learn ReactJS. I practice myself with some projects to strengthen my skills everyday. I would deliver all my works with honest result.</p>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- End of ABOUT -->
-
-      <!-- Start of PROJECTS -->
-      <section id="projects">
-        <div class="container d-flex flex-column align-items-center text-center">
-          <div class="row">
-            <div class="col">
-              <h2 class="display-6">Projects</h2>
-              <p>Here's a couple of my recent projects</p>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col d-sm-flex flex-wrap justify-content-center">
-              <a class="cardWrapper" href="https://order.cheedles.id/" target="_blank">
-                <div class="card ms-sm-3 me-sm-3 mb-4 shadow" style="width: 18rem;">
-                  <img src="img/projpict/food.png" class="card-img-top" alt="cheedles">
-                  <div class="card-body">
-                    <h5>Cheedles Landing Page</h5>
-                    <p class="card-text">Cheedles landing page with GA4 integration.</p>
-                  </div>
-                </div>
-              </a>
-              <a class="cardWrapper" href="https://muhammadeiqobal16.github.io/emojigamereborn/" target="_blank">
-                <div class="card ms-sm-3 me-sm-3 mb-4 shadow" style="width: 18rem;">
-                  <img src="img/projpict/emoji.png" class="card-img-top" alt="emoji">
-                  <div class="card-body">
-                    <h5>Emoji Game</h5>
-                    <p class="card-text">Fun project for me, fun game for everyone.</p>
-                  </div>
-                </div>
-              </a>
-              <a class="cardWrapper" href="https://muhammadeiqobal16.github.io/lunchbreak/" target="_blank">
-                <div class="card ms-sm-3 me-sm-3 shadow" style="width: 18rem;">
-                  <img src="img/projpict/restaurant.png" class="card-img-top" alt="restaurant">
-                  <div class="card-body">
-                    <h5>Restaurant Landing Page</h5>
-                    <p class="card-text">The example project of a restaurant web page.</p>
-                  </div>
-                </div>
-              </a>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- End of PROJECTS -->
-
-      <!-- Start of TOOLBOX -->
-      <section id="toolbox" class="shadow">
+    <!-- Start of ABOUT -->
+    <section id="about" class="shadow">
         <div class="container">
-          <div class="row">
-            <div class="col text-center">
-              <h2 class="display-6">Toolbox</h2>
-              <p>These are my toolbox for developing projects</p>
+            <div class="row mb-3">
+                <div class="col">
+                    <h2 class="text-center">About Me</h2>
+                </div>
             </div>
-          </div>
-          <div class="row m-3">
-            <div class="col d-flex justify-content-evenly text-center flex-wrap">
-              <figure>
-                <img src="img/skillicon/html48c.png" alt="html">
-                <figcaption>
-                  <p>HTML</p>
-                </figcaption>
-              </figure>
-              <figure>
-                <img src="img/skillicon/css48c.png" alt="css">
-                <figcaption>
-                  <p>CSS</p>
-                </figcaption>
-              </figure>
-              <figure>
-                <img src="img/skillicon/js48c.png" alt="js">
-                <figcaption>
-                  <p>JavaScript</p>
-                </figcaption>
-              </figure>
-              <figure>
-                <img src="img/skillicon/b48c.png" alt="bootstrap">
-                <figcaption>
-                  <p>Bootstrap</p>
-                </figcaption>
-              </figure>
-              <figure>
-                <img src="img/skillicon/react48c.png" alt="react">
-                <figcaption>
-                  <p>React</p>
-                </figcaption>
-              </figure>
-              <figure>
-                <img src="img/skillicon/git48c.png" alt="git">
-                <figcaption>
-                  <p>Git</p>
-                </figcaption>
-              </figure>
+            <div class="row justify-content-center">
+                <div class="col-md-4 text-sm-end text-center pb-3">Hello world! My name is Muhammad Iqbal. I am 27 years old. I graduated from The National Institute of Technology in 2017 as an Industrial Engineer. Long story short, I decided to dive into the world of frontend developer because coding is fun and has become my lifestyle.</div>
+                <div class="col-md-4 text-sm-start text-center pb-3">Start my journey by learning HTML, CSS, and JavaScript. Learn some libraries such as jQuery and Bootstrap and now I currently learn ReactJS. I practice myself with some projects to strengthen my skills everyday. I would deliver all my works with honest result.</div>
             </div>
-          </div>
         </div>
-      </section>
-      <!-- End of TOOLBOX -->
+    </section>
+    <!-- End of ABOUT -->
 
 
-      <!-- Start of CONTACT -->
-      <section id="contact" class="d-flex justify-content-center align-items-center text-center">
+    <!-- Start of PROJECTS -->
+    <section id="project">
         <div class="container">
-          <div class="row">
-            <div class="col">
-              <h2 class="display-6">Contact</h2>
+            <div class="row text-center mb-3">
+                <div class="col">
+                    <h2>My Projects</h2>
+                </div>
             </div>
-            <div class="row">
-              <div class="col">
-                <p>Let's keep in touch from now on via social media below:</p>
-              </div>
+            <div class="row d-flex">
+                <div class="col-md-4 mb-3">
+                  <a href="https://order.cheedles.id/" class="text-decoration-none text-black" target="_blank">
+                    <div class="card">
+                        <div class="imgWrap bg-warning">
+                          <img src="img/projpict/food.png" class="proj1 card-img-top" alt="proj1">
+                        </div>
+                        <div class="card-body">
+                          <h1 class="lead text-center">Cheedles</h1>
+                          <p class="card-text">Cheedles cloud-restaurant landing page developed using Bootstrap and integrated with Google Analytics 4.</p>
+                        </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-md-4 mb-3">
+                  <a href="https://muhammadeiqobal16.github.io/lunchbreak/" class="text-decoration-none text-black" target="_blank">
+                    <div class="card">
+                      <div class="imgWrap bg-danger">
+                        <img src="img/projpict/restaurant.png" class="proj2 card-img-top" alt="proj2">
+                      </div>
+                        <div class="card-body">
+                          <h1 class="lead text-center">Restaurant Dummy Page</h1>
+                          <p class="card-text">An example of restaurant web page. This project was developed with only plain HTML, CSS, and JavaScript.</p>
+                        </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-md-4 mb-3">
+                  <a href="https://muhammadeiqobal16.github.io/emojigamereborn/" class="text-decoration-none text-black" target="_blank">
+                    <div class="card">
+                      <div class="imgWrap bg-primary">
+                        <img src="img/projpict/emoji.png" class="proj3 card-img-top" alt="proj3">
+                      </div>
+                        <div class="card-body">
+                          <h1 class="lead text-center">Emoji Game</h1>
+                          <p class="card-text">This project was developed focusing on JavaScript DOM and the usage of web storage.</p>
+                        </div>
+                    </div>
+                  </a>
+                </div>
             </div>
-            <div class="row">
+        </div>
+    </section>
+    <!-- End of PROJECTS -->
+
+    <!-- Start of TOOLBOX -->
+    <section id="skill" class="shadow">
+      <div class="container">
+          <div class="row text-center mb-3">
               <div class="col">
-                <a href="https://www.instagram.com/muhammadeiqobal16" target="_blank">
-                  <i class="bi bi-instagram ms-3 m3-3"></i>
-                </a>
-                <a href="https://www.twitter.com/@hellofromiqbal" target="_blank">
-                  <i class="bi bi-twitter ms-3 m3-3"></i>
-                </a>
-                <a href="https://github.com/muhammadeiqobal16" target="_blank">
-                  <i class="bi bi-github ms-3 m3-3"></i>
-                </a>
-                <a href="mailto:muhammadeiqobal16@gmail.com" target="_blank">
-                  <i class="bi bi-envelope ms-3 m3-3"></i>
-                </a>
+                  <h2>Skill</h2>
               </div>
+          </div>
+
+          <div class="row justify-content-center">
+            <div class="col-md-6">
+              <ul class="socMed d-flex justify-content-evenly list-unstyled">
+                <li class="nav-item text-center">
+                  <figure>
+                    <img src="img/skillicon/html48c.png" class="skillIcon" alt="html">
+                    <figcaption>
+                      <p>HTML</p>
+                    </figcaption>
+                  </figure>
+                </li>
+                <li class="nav-item text-center">
+                  <figure>
+                    <img src="img/skillicon/css48c.png" class="skillIcon" alt="css">
+                    <figcaption>
+                      <p>CSS</p>
+                    </figcaption>
+                  </figure>
+                </li>
+                <li class="nav-item text-center">
+                  <figure>
+                    <img src="img/skillicon/js48c.png" class="skillIcon" alt="js">
+                    <figcaption>
+                      <p>JavaScript</p>
+                    </figcaption>
+                  </figure>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="row justify-content-center">
+            <div class="col-md-6">
+              <ul class="socMed d-flex justify-content-evenly list-unstyled">
+                <li class="nav-item text-center">
+                  <figure>
+                    <img src="img/skillicon/b48c.png" class="skillIcon" alt="bootstrap">
+                    <figcaption>
+                      <p>Bootstrap</p>
+                    </figcaption>
+                  </figure>
+                </li>
+                <li class="nav-item text-center">
+                  <figure>
+                    <img src="img/skillicon/react48c.png" class="skillIcon" alt="react">
+                    <figcaption>
+                      <p>ReactJS</p>
+                    </figcaption>
+                  </figure>
+                </li>
+                <li class="nav-item text-center">
+                  <figure>
+                    <img src="img/skillicon/git48c.png" class="skillIcon" alt="git">
+                    <figcaption>
+                      <p>Git</p>
+                    </figcaption>
+                  </figure>
+                </li>
+              </ul>
             </div>
           </div>
         </div>
-      </section>
-      <!-- End of CONTACT -->
-    </main>
+    </section>
+    <!-- End of TOOLBOX -->
 
-    
+
+    <!-- Start of CONTACT -->
+    <section id="contact">
+        <div class="container">
+            <div class="row text-center mb-3">
+                <div class="col">
+                    <h2>Contact</h2>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                  <ul class="socMed d-flex justify-content-center list-unstyled">
+                    <li class="nav-item">
+                      <a class="nav-link text-decoration-none" href="https://www.instagram.com/muhammadeiqobal16">
+                        <img src="img/contacticon/instagram.svg" class="icon" alt="instagram">
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-decoration-none" href="https://www.facebook.com/muhammadeiqobal16/">
+                        <img src="img/contacticon/facebook.svg" class="icon" alt="facebook">
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-decoration-none" href="https://www.twitter.com/@hellofromiqbal">
+                        <img src="img/contacticon/twitter.svg" class="icon" alt="twitter">
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-decoration-none" href="https://www.linkedin.com/in/muhammad-iqbal-257224154/">
+                        <img src="img/contacticon/linkedin.svg" class="icon" alt="linkedin">
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-decoration-none" href="https://github.com/muhammadeiqobal16">
+                        <img src="img/contacticon/github.svg" class="icon" alt="github">
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-decoration-none" href="mailto:muhammadeiqobal16@gmail.com">
+                        <img src="img/contacticon/envelope.svg" class="icon" alt="email">
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End of CONTACT -->
+
 
     <!-- Start of FOOTER -->
-    <footer class="bg-dark text-white pt-2 d-flex justify-content-center align-items-center">
-      <p>Created by Muhammad Iqbal.</p>
+    <footer class="bg-dark pt-2 pb-2 text-center text-white">
+        <p>Created by Muhammad Iqbal</a></p>
     </footer>
     <!-- End of FOOTER -->
 
@@ -233,7 +264,7 @@
     <script src="js/bootstrap.js"></script>
     <!-- Option 2: Separate Popper and Bootstrap JS -->
     <script src="js/popper.min.js"></script>
-    <!-- My JS -->
+    <!-- Own Script -->
     <script src="js/script.js"></script>
   </body>
 </html>

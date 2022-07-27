@@ -1,56 +1,42 @@
 body{
-    background-image: url(../img/bgimg1.jpg);
+    background-image: url(../img/bgimg/bg9.jpg);
     background-size: cover;
     background-position: center;
 }
-a{
-    text-decoration: none;
-    color: black;
-}
-a:hover{
-    color: black;
-}
-section{
-    padding-top: 5rem;
-    padding-bottom: 5rem;
-}
-figure{
-    flex-basis: 33.33%;
-}
-figure img{
-    width: 4em;
-}
 #jumbotron{
-    height: 100vh;
+    padding-top: 6rem;
+}
+#project .card{
+    border-radius: 10px;
+    overflow: hidden;
+}
+.imgWrap{
+    text-align: center;
 }
 #about{
     background-color: white;
 }
-#toolbox{
+.profpic{
+    width: 200px;
+    height: 200px;
+}
+#skill{
     background-color: white;
 }
-#contact{
-    height: 300px;
+section{
+    padding: 5rem 0;
 }
-.profpic{
+.proj1, .proj2, .proj3{
+    margin: 0 auto;
     width: 250px;
 }
-.col i{
-    font-size: 2em;
+.icon{
+    width: 30px;
 }
-.card{
-    border-radius: 10px;
-}
-.cardWrapper{
-    transition: .3s;
-}
-.cardWrapper:hover{
-    transform: scale(103%);
-}
-.card img{
-    width: 200px;
-    margin: 0 auto;
-}
-:target{
-    scroll-margin-top: 3.5rem;
+.resumeBtn{
+    background-color: green;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
