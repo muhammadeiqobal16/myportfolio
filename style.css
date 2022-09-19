@@ -1,0 +1,60 @@
+:target{
+    scroll-margin-top: 3em;
+}
+.profpic{
+    width: 300px;
+}
+ul li a img{
+    transform: scale(2);
+}
+.reveal{
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: all 2s ease;
+}
+.active{
+    transform: translateY(0px);
+    opacity: 1;
+}
+
+#jumbotron{
+    background-image: url(img/background/bg4.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#jumbotron .profpic{
+    width: 300px;
+}
+#jumbotron .container-fluid{
+    height: 100vh;
+}
+iframe{
+    width: 550px;
+    height: 315px;
+}
+
+#skills, #contact{
+    background-color: rgb(231, 216, 216);
+}
+
+/* RESPONSIVENESS */
+@media (max-width: 576px){
+    iframe{
+        width: 100%;
+        height: 250px;
+    }
+    #jumbotron .profpic{
+        width: 250px;
+        margin-top: 50px;
+    }
+    #jumbotron .lead{
+        line-height: .5;
+    }
+    #jumbotron .jumbotext{
+        margin-top: 30px;
+    }
+    .profpic{
+        width: 200px;
+    }
+}
