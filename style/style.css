@@ -9,17 +9,21 @@ ul li a img{
 }
 .reveal{
     position: relative;
-    transform: translateY(150px);
+    transform: translateY(100px);
     opacity: 0;
-    transition: all 2s ease;
+    transition: all 1s ease;
 }
 .active{
     transform: translateY(0px);
     opacity: 1;
 }
 
+#about, #skills, #projects, #contact{
+    overflow: hidden;
+}
+
 #jumbotron{
-    background-image: url(img/background/bg4.jpg);
+    background-image: url(../img/background/bg4.jpg);
     background-position: center;
     background-size: cover;
 }
